@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Outputs / sample captures
+rgbd_test/
+capture_*/
+aligned/
+*.npy
+*.ply
+*.raw
+*.jpg
+*.png
+!docs/assets/
+!docs/assets/*.jpg
+!docs/assets/*.png
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
